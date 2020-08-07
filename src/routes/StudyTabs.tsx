@@ -15,13 +15,13 @@ function StudyTabs() {
         style: {
           elevation: 0,
           shadowOpacity: 0,
-          height: Platform.OS === "ios" ? 84 : 64,
+          height: Platform.OS === "ios" ? 64 : 64,
         },
         tabStyle: {
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "center",
-          paddingBottom: Platform.OS === "ios" ? 20 : 0,
+          paddingBottom: Platform.OS === "ios" ? 0 : 0,
         },
         safeAreaInsets: {
           bottom: 0,
